@@ -14,10 +14,22 @@
   "author": "Jason Guarracino",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
+    "@commitlint/cli": "^13.2.0",
+    "@commitlint/config-conventional": "^13.2.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.2",
     "jest": "^27.2.4",
+    "lint-staged": "^11.2.0",
+    "prettier": "^2.4.1",
     "wish": "^1.0.1"
   },
   "dependencies": {
+    "axios": "^0.22.0",
     "ramda": "^0.27.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
